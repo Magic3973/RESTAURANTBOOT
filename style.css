@@ -1,0 +1,699 @@
+/*   ****************header*************   */
+body {
+  margin: 0; }
+  body header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/back.jpg);
+    background: cover, no-repeat;
+    height: 750px;
+    width: 100%; }
+    @media (min-width: 768px) and (max-width: 950px) {
+      body header {
+        height: 600px; } }
+  body #milieu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%; }
+    @media screen and (max-width: 640px) {
+      body #milieu {
+        margin-top: 100px; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      body #milieu {
+        margin-bottom: 0; } }
+    @media (min-width: 641px) and (max-width: 767px) {
+      body #milieu {
+        margin-top: 60px; } }
+    body #milieu h1 {
+      font-family: 'Yeseva One', cursive;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-size: 90px;
+      margin-left: 10%;
+      margin-right: 10%;
+      line-height: 1.5; }
+      @media screen and (max-width: 640px) {
+        body #milieu h1 {
+          font-size: 40px; } }
+      @media (min-width: 640px) and (max-width: 767px) {
+        body #milieu h1 {
+          font-size: 50px; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #milieu h1 {
+          font-size: 60px;
+          margin-right: 0; } }
+    body #milieu #bouton {
+      margin-top: 50px; }
+      @media screen and (max-width: 640px) {
+        body #milieu #bouton {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 78%; } }
+    body #milieu #bg {
+      border: 1px solid black;
+      padding: 12px 45px 12px 45px;
+      font-family: 'Lato', cursive;
+      font-size: 18px;
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+      text-decoration: none;
+      margin-right: 20px; }
+      @media screen and (max-width: 640px) {
+        body #milieu #bg {
+          font-size: 14px;
+          padding: 3% 6% 3% 6%;
+          margin-right: 2%;
+          margin-left: 10%; } }
+      @media (min-width: 640px) and (max-width: 767px) {
+        body #milieu #bg {
+          margin-right: 0; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #milieu #bg {
+          margin-right: 0; } }
+    body #milieu #bd:hover {
+      color: #dab33e; }
+    body #milieu #bd {
+      text-decoration: none;
+      border: 1px solid white;
+      font-family: 'Lato', cursive;
+      font-size: 18px;
+      color: white;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 12px 45px 12px 45px; }
+      @media screen and (max-width: 640px) {
+        body #milieu #bd {
+          font-size: 14px;
+          padding: 3% 6% 3% 6%;
+          margin-left: 2%; } }
+    body #milieu #bg:hover {
+      color: #dab33e; }
+  body #menu {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7%; }
+    body #menu #menu2 {
+      position: fixed;
+      left: 40%;
+      top: 22px;
+      z-index: 15;
+      height: 80px; }
+      @media screen and (max-width: 640px) {
+        body #menu #menu2 {
+          left: 70%; } }
+      @media (min-width: 641px) and (max-width: 767px) {
+        body #menu #menu2 {
+          margin-top: 60px;
+          left: 60%; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #menu #menu2 {
+          font-size: 16px;
+          left: 32%; } }
+      @media (min-width: 951px) and (max-width: 1024px) {
+        body #menu #menu2 {
+          left: 25%; } }
+    body #menu a.nav-link {
+      font-family: 'Gentium Book Basic', serif;
+      font-size: 21px;
+      color: #f8f9fa; }
+      @media screen and (max-width: 640px) {
+        body #menu a.nav-link {
+          font-size: 16px;
+          line-height: 6px; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #menu a.nav-link {
+          font-size: 16px;
+          padding: 6px; } }
+      @media (min-width: 951px) and (max-width: 1024px) {
+        body #menu a.nav-link {
+          margin-right: 0; } }
+    body #menu i {
+      color: #dab33e; }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #menu i {
+          color: black; } }
+    body #menu .fa fa-navicon {
+      color: white; }
+    body #menu button.navbar-toggler {
+      border: 1px solid white; }
+      body #menu button.navbar-toggler i {
+        color: white;
+        line-height: 1.5; }
+    body #menu span.navbar-toggler-icon {
+      color: white; }
+    body #menu #logo {
+      margin-left: 10%;
+      margin-right: 6%; }
+      @media screen and (max-width: 640px) {
+        body #menu #logo {
+          width: 35%;
+          margin-left: 13%;
+          margin-right: 3%; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #menu #logo {
+          margin-left: 12%;
+          margin-right: 2%; } }
+      @media (min-width: 641px) and (max-width: 767px) {
+        body #menu #logo img {
+          width: 25vw;
+          height: 25vw;
+          margin-left: 8%;
+          margin-right: 4%; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        body #menu #logo img {
+          width: 50vw;
+          height: 50vw;
+          margin-left: 4%;
+          margin-right: 4%; } }
+
+/*  ***************main**********************   */
+/*  *************section 1 *******************  */
+#cook {
+  background-image: url(img/bgchef.jpg);
+  background: cover, no-repeat;
+  height: 710px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  @media screen and (max-width: 640px) {
+    #cook {
+      height: 570px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  #cook #cooker {
+    width: 50%;
+    margin: 20px 0 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 640px) {
+      #cook #cooker {
+        margin: 30px 10px 10px 0;
+        width: 80%; } }
+    @media (min-width: 951px) and (max-width: 1024px) {
+      #cook #cooker {
+        margin: 30px 10px 10px 0;
+        width: 70%; } }
+  #cook h2 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    color: #cc9900;
+    text-align: center;
+    font-size: 36px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+    margin-bottom: 3%; }
+    @media screen and (max-width: 640px) {
+      #cook h2 {
+        font-size: 20px; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #cook h2 {
+        font-size: 28px; } }
+    @media (min-width: 951px) and (max-width: 1024px) {
+      #cook h2 {
+        font-size: 28px; } }
+  #cook #textcker {
+    font-family: 'Lato', cursive;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 6%;
+    margin-left: 8%;
+    margin-right: 8%; }
+    @media screen and (max-width: 640px) {
+      #cook #textcker {
+        text-align: left;
+        margin-left: 1%;
+        margin-right: 1%; } }
+
+#dishes {
+  width: 50%; }
+  @media screen and (max-width: 640px) {
+    #dishes {
+      display: none; } }
+  @media (min-width: 768px) and (max-width: 950px) {
+    #dishes img {
+      width: 50vw;
+      height: 50vw; } }
+  @media (min-width: 951px) and (max-width: 1024px) {
+    #dishes img {
+      width: 40vw;
+      height: 40vw; } }
+
+/*   *************section 2 ***********   */
+#basilic {
+  background-image: url(img/basilique.jpg);
+  background: cover, no-repeat;
+  height: 758px;
+  width: 100%;
+  padding-top: 8%; }
+  @media screen and (max-width: 640px) {
+    #basilic {
+      padding-top: 30%;
+      padding-bottom: 3%; } }
+  @media (min-width: 768px) and (max-width: 950px) {
+    #basilic {
+      height: 680px;
+      padding-top: 13%; } }
+  #basilic #ardoise {
+    background: rgba(0, 0, 0, 0.4);
+    background: cover;
+    margin-left: 52%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 640px) {
+      #basilic #ardoise {
+        margin: 10px 25px 10px 25px;
+        padding-top: 6%;
+        padding-bottom: 6%; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #basilic #ardoise {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        margin-left: 21%;
+        margin-right: 21%; } }
+    #basilic #ardoise h2 {
+      font-family: 'Yeseva One', cursive;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-size: 36px;
+      line-height: 1.5;
+      margin-bottom: 3%; }
+      @media screen and (max-width: 640px) {
+        #basilic #ardoise h2 {
+          font-size: 20px; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        #basilic #ardoise h2 {
+          font-size: 28px; } }
+    #basilic #ardoise #textckerfine {
+      font-family: 'Lato', cursive;
+      font-size: 16px;
+      text-align: center;
+      color: white;
+      margin-top: 6%;
+      margin-left: 20%;
+      margin-right: 20%; }
+      @media screen and (max-width: 640px) {
+        #basilic #ardoise #textckerfine {
+          margin-left: 2%;
+          margin-right: 2%; } }
+    #basilic #ardoise #images {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      @media screen and (max-width: 640px) {
+        #basilic #ardoise #images {
+          padding-top: 100px; } }
+    #basilic #ardoise .ecart {
+      margin-right: 5%; }
+      @media screen and (max-width: 640px) {
+        #basilic #ardoise .ecart {
+          margin-right: 0; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        #basilic #ardoise .ecart {
+          width: 10vw;
+          height: 10vw;
+          margin-right: 0; } }
+
+/* **************section 3   *************  */
+#brochettes {
+  background-image: url(img/brochettes.jpg);
+  background: cover, no-repeat;
+  height: 758px;
+  width: 100%;
+  padding-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (max-width: 640px) {
+    #brochettes {
+      padding-top: 0;
+      height: 700px; } }
+  @media (min-width: 768px) and (max-width: 950px) {
+    #brochettes {
+      padding-top: 0;
+      height: 660px; } }
+  #brochettes #guestreviews {
+    background: rgba(0, 0, 0, 0.7);
+    background: cover;
+    margin: 5% 25% 5% 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 640px) {
+      #brochettes #guestreviews {
+        margin: 30% 5% 2% 5%; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #brochettes #guestreviews {
+        margin: 5% 5% 5% 5%; } }
+    #brochettes #guestreviews h2 {
+      font-family: 'Yeseva One', cursive;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-size: 36px;
+      line-height: 1.5;
+      margin-top: 10%; }
+      @media screen and (max-width: 640px) {
+        #brochettes #guestreviews h2 {
+          font-size: 30px; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        #brochettes #guestreviews h2 {
+          font-size: 28px; } }
+    #brochettes #guestreviews #textreviews {
+      font-family: 'Gentium Book Basic', serif;
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+      color: white;
+      margin-top: 4%;
+      margin-left: 12%;
+      margin-right: 12%; }
+      @media screen and (max-width: 640px) {
+        #brochettes #guestreviews #textreviews {
+          font-size: 18px; } }
+      #brochettes #guestreviews #textreviews i {
+        font-size: 50px;
+        text-align: left;
+        color: dimgray; }
+        @media screen and (max-width: 640px) {
+          #brochettes #guestreviews #textreviews i {
+            font-size: 30px; } }
+    #brochettes #guestreviews #food {
+      font-family: 'Lato', cursive;
+      font-size: 18x;
+      text-align: center;
+      color: white;
+      margin-bottom: 10%; }
+
+/*    ********** section 4   ***********   */
+#contact {
+  background-image: url(img/bgchef.jpg);
+  background: cover, no-repeat;
+  height: 710px;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  @media screen and (max-width: 640px) {
+    #contact {
+      height: 750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  @media (min-width: 768px) and (max-width: 950px) {
+    #contact {
+      height: 600px;
+      display: flex;
+      flex-direction: row;
+      align-items: center; } }
+  #contact #imag {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 5% 0 5% 15%; }
+    @media screen and (max-width: 640px) {
+      #contact #imag {
+        display: none; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #contact #imag {
+        width: 40%;
+        padding: 5% 0 5% 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; } }
+    @media (min-width: 951px) and (max-width: 1024px) {
+      #contact #imag {
+        width: 52%;
+        padding: 5% 0 5% 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; } }
+  #contact img {
+    padding-right: 2%; }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #contact img {
+        width: 25vw;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; } }
+  @media (min-width: 768px) and (max-width: 950px) {
+    #contact #reste {
+      display: none; } }
+  #contact #theend {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 10%; }
+    @media screen and (max-width: 640px) {
+      #contact #theend {
+        width: 74%;
+        margin-top: 10%;
+        margin-right: 1%; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      #contact #theend {
+        width: 80%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+    @media (min-width: 951px) and (max-width: 1024px) {
+      #contact #theend {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+    #contact #theend h2 {
+      font-family: 'Yeseva One', cursive;
+      font-weight: 400;
+      color: #cc9900;
+      text-align: center;
+      font-size: 36px;
+      margin-left: 5%;
+      margin-right: 5%;
+      line-height: 1.5;
+      margin-bottom: 3%; }
+      @media screen and (max-width: 640px) {
+        #contact #theend h2 {
+          font-size: 20px; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        #contact #theend h2 {
+          font-size: 24px; } }
+      @media (min-width: 951px) and (max-width: 1024px) {
+        #contact #theend h2 {
+          font-size: 28px; } }
+    #contact #theend #textcker2 {
+      font-family: 'Lato', cursive;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 6%; }
+      @media (min-width: 951px) and (max-width: 1024px) {
+        #contact #theend #textcker2 {
+          width: 80%; } }
+    #contact #theend #ligne1 {
+      display: flex;
+      flex-direction: row; }
+      @media screen and (max-width: 640px) {
+        #contact #theend #ligne1 {
+          margin: 0;
+          display: flex;
+          flex-direction: column; } }
+    #contact #theend #ligne2 {
+      display: flex;
+      flex-direction: row; }
+      @media screen and (max-width: 640px) {
+        #contact #theend #ligne2 {
+          margin: 0;
+          display: flex;
+          flex-direction: column; } }
+  #contact .titre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c9a131;
+    margin-left: 5%; }
+  #contact #titre {
+    border: 1px solid #c9a131; }
+  #contact #date {
+    border: 1px solid #7c7c7c;
+    padding: 3% 5.8% 3% 5.8%; }
+  #contact select {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #7c7c7c;
+    padding: 4% 14% 4% 14%; }
+    @media screen and (max-width: 640px) {
+      #contact select {
+        display: flex;
+        flex: column;
+        font-size: 14px; } }
+  #contact input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    color: #7c7c7c;
+    padding: 3% 6% 3% 6%; }
+    @media screen and (max-width: 640px) {
+      #contact input {
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        flex: column; } }
+  #contact .button {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #c9a131;
+    font-size: 16px;
+    color: white;
+    background: #c9a131;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 30%;
+    padding: 4% 15%; }
+    @media screen and (max-width: 640px) {
+      #contact .button {
+        font-size: 14px;
+        padding: 2% 4%;
+        margin-right: 1%; } }
+    #contact .button .button:hover {
+      color: black; }
+  #contact #formu {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+
+/*       ******** footer**********   */
+footer {
+  background: black;
+  width: 100%; }
+  footer #colonnes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    color: white; }
+    @media screen and (max-width: 640px) {
+      footer #colonnes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 6%; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      footer #colonnes {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 6%;
+        padding-left: 5%;
+        padding-right: 5%; } }
+    footer #colonnes li {
+      list-style: none; }
+    @media screen and (max-width: 640px) {
+      footer #colonnes ul {
+        padding-left: 0;
+        text-align: center; } }
+    @media (min-width: 768px) and (max-width: 950px) {
+      footer #colonnes ul {
+        padding-left: 0; } }
+    footer #colonnes h3 {
+      font-family: 'Yeseva One', cursive;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      font-size: 21px;
+      line-height: 1.5; }
+      @media screen and (max-width: 640px) {
+        footer #colonnes h3 {
+          font-size: 16px; } }
+    footer #colonnes .mef {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      margin-bottom: 10%; }
+      @media screen and (max-width: 640px) {
+        footer #colonnes .mef {
+          font-size: 12px; } }
+    footer #colonnes img {
+      margin-bottom: 10%;
+      margin-top: 2%; }
+      @media (min-width: 768px) and (max-width: 950px) {
+        footer #colonnes img {
+          width: 100px;
+          height: 10px; } }
+    footer #colonnes #about {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 5%; }
+      @media screen and (max-width: 640px) {
+        footer #colonnes #about {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin-right: 0; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        footer #colonnes #about {
+          margin-right: 0; } }
+    footer #colonnes #open {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 5%; }
+      @media screen and (max-width: 640px) {
+        footer #colonnes #open {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin-right: 0; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        footer #colonnes #open {
+          margin-left: 2%; } }
+    footer #colonnes #location {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      @media screen and (max-width: 640px) {
+        footer #colonnes #location {
+          width: 100%;
+          padding-top: 15%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-right: 0; } }
+      @media (min-width: 768px) and (max-width: 950px) {
+        footer #colonnes #location {
+          margin-right: 0; } }
+    footer #colonnes i {
+      padding-top: 50%;
+      margin-right: 12%; }
+    footer #colonnes span {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
